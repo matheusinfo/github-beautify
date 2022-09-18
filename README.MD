@@ -1,4 +1,5 @@
 <h1 align="center">GitHub Beautify - everything green</h1>
+<small>20+ year XP in less than 10m? No problem, let's fix that.</small>
 
 ## explanation
 
@@ -26,6 +27,20 @@ $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/matheusinfo/github-beaut
 
 <img src="https://user-images.githubusercontent.com/48860569/190915613-730bb1e9-3e5e-40db-bcd3-7a7b3dae2eaf.png"/>
 <img src="https://user-images.githubusercontent.com/48860569/190915633-912ae42d-4ea7-4217-bdb4-f3bf55387c77.png"/>
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+- From 1980
+
+<img src="https://user-images.githubusercontent.com/48860569/190916048-b8441dbe-b74f-4535-90a7-397a50b113c9.png" />
+
+&nbsp;
+
+- To 2022
+
+<img src="https://user-images.githubusercontent.com/48860569/190916108-6e6e318f-9b6d-4c76-b3d8-ac1787d244cd.png" />
 
 ## references 
 
