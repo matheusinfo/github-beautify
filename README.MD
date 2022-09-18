@@ -8,12 +8,13 @@ Based on (https://github.com/antfu/1990-script) that's created a script to make 
 ## how use
 
 ```bash
-# 1 - Create a new repo on GitHub, public or private
-# 2 - Clone the project on your local machine
-# 3 - Go to your cloned folder
-# 4 - Generate a personal token on GitHub (https://github.com/settings/tokens/new)
+# 1 - Generate a personal token on GitHub (https://github.com/settings/tokens/new)
+# 2 - Create a new repo on GitHub, public or private
+# 3 - Clone the project on your local machine
+# 4 - Go to your cloned folder
 
-$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/matheusinfo/github-beautify/master/script.sh)"
+$ wget "https://raw.githubusercontent.com/matheusinfo/github-beautify/master/script.sh" -O ./script.sh
+$ sh ./scripth.sh
 
 # 5 - Populate Username
 # 6 - Populate Access Token
