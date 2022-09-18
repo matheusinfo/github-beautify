@@ -14,7 +14,7 @@ Based on (https://github.com/antfu/1990-script) that's created a script to make 
 # 4 - Go to your cloned folder
 
 $ wget "https://raw.githubusercontent.com/matheusinfo/github-beautify/master/script.sh" -O ./script.sh
-$ sh ./scripth.sh
+$ sh ./script.sh
 
 # 5 - Populate Username
 # 6 - Populate Access Token
