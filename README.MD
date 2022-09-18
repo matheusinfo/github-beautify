@@ -18,8 +18,8 @@ $ sh ./script.sh
 
 # 5 - Populate Username
 # 6 - Populate Access Token
-# 7 -Populate Initial Year to timeline
-# 8 -Populate the name of principal branch
+# 7 - Populate Initial Year to timeline
+# 8 - Populate the name of principal branch
 ```
 
 ## results

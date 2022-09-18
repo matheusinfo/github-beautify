@@ -10,11 +10,15 @@ _() {
   echo "Initial year (YYYY):"
   read -r YEAR
 
-  echo "Branch principal (master/main):"
-  read -r BRANCH
-
   [ -z "$USERNAME" ] && exit 1
   [ -z "$ACCESS_TOKEN" ] && exit 1  
+
+  echo "Thank's to test my script <3 - @matheusinfo" >> README.md
+  git init
+  git add README.md
+  git commit -m "docs: add README.md"
+  git branch -M main
+  git push -u origin main -f
 
   for year in $(seq $YEAR 1 2022)
     do
@@ -31,9 +35,9 @@ _() {
             done
         done
 
-    git checkout "${BRANCH}"
+    git checkout "main"
     git merge "$year-commit" --allow-unrelated-histories
-    git push -u origin "${BRANCH}" -f
+    git push -u origin "main" -f
   done
 
 } && _
