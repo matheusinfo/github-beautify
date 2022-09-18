@@ -13,7 +13,8 @@ _() {
   [ -z "$USERNAME" ] && exit 1
   [ -z "$ACCESS_TOKEN" ] && exit 1  
 
-  echo "Thank's to test my script <3 - @matheusinfo" >> README.md
+  touch README.md
+  echo "Thank's to test my script <3 - @matheusinfo"
   git init
   git add README.md
   git commit -m "docs: add README.md"
